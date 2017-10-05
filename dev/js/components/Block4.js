@@ -10,7 +10,7 @@ export default class Block4 extends Component {
             </div>
             <div>
               <button className='block4_button'>
-                <a href='https://withjoy.com/'><img src='https://cdn.zeplin.io/59416fd3aa203d22db1e60c9/assets/E9E52DDE-E455-49DA-A981-09F4433007FE.png'
+                <a href='https://withjoy.com/' target='_blank'><img src='https://cdn.zeplin.io/59416fd3aa203d22db1e60c9/assets/E9E52DDE-E455-49DA-A981-09F4433007FE.png'
                 alt='play_button'/></a>
               </button>
             </div>

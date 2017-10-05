@@ -1,29 +1,63 @@
 import React, {Component} from 'react';
+import ComponentLink from './ComponentLink';
 
 export default class Block7 extends Component {
   render() {
     return(
-<div className='block7'>
+          <div className='block7'>
             <div className='block7_container1'>
               <div className='block7_sub_container1'>
                 <span className='block7_headings'>PRODUCT</span>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Payments</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Pricing</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Subscriptions</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Customers</a>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Payments'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Pricing'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Subscriptions'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Customers'/>
               </div>
               <div className='block7_sub_container1'>
                 <span className='block7_headings'>COMPANY</span>
-                <a href="https://withjoy.com/" className='block7_container1_content'>About</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Blog</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Jobs</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Press</a>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='About'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Blog'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Jobs'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Press'/>
               </div>
               <div className='block7_sub_container1'>
                 <span className='block7_headings'>RESOURCES</span>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Support</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Contact</a>
-                <a href="https://withjoy.com/" className='block7_container1_content'>Privacy & Terms</a>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Support'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Contact'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container1_content'
+                text='Privacy & Terms'/>
               </div>
             </div>
             <div className='block7_container2'>
@@ -31,7 +65,10 @@ export default class Block7 extends Component {
               <div>
               <input className='block7_container2_content2' type='email' value='Your email address' />
               <button className='block7_container2_content3'>
-                <a href="https://withjoy.com/" className='block7_container2_content3_link' >Go!</a>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='block7_container2_content3_link'
+                text='Go!'/>
               </button>
               </div>
             </div>

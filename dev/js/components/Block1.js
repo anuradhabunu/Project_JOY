@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ComponentLink from './ComponentLink';
 
 export default class Block1 extends Component {
   render() {
@@ -10,12 +11,30 @@ export default class Block1 extends Component {
                 alt='logo' className ='logo'/>
               </div>
               <div className='filter'>
-                <a href="https://withjoy.com/" className='filter_content'>Men</a>
-                <a href="https://withjoy.com/" className='filter_content'>Women</a>
-                <a href="https://withjoy.com/" className='filter_content'>Kids</a>
-                <a href="https://withjoy.com/" className='filter_content'>Shopping</a>
-                <a href="https://withjoy.com/" className='filter_content'>Blog</a>
-                <a href="https://withjoy.com/" className='filter_content'>Contact</a>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Men'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Women'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Kids'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Shopping'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Blog'/>
+                <ComponentLink
+                link='https://withjoy.com/'
+                classType='filter_content'
+                text='Contact'/>
               </div>
             </div>
             <img src='https://cdn.zeplin.io/59416fd3aa203d22db1e60c9/assets/C504EE3E-6E0F-490F-8115-B320E40DF73A.png'
@@ -28,7 +47,10 @@ export default class Block1 extends Component {
             alt='highlight_bar' className='new_arrival_hr'/>
             <span className='New-Arrivals'> New Arrivals</span>
             <div clasName='Browse_Collection_Container'>
-              <a className='Browse-Collection' href='https://withjoy.com/'>Browse Collection</a>
+              <ComponentLink
+              link='https://withjoy.com/'
+              classType='Browse-Collection'
+              text='Browse Collection'/>
             </div>
           </div>
     );

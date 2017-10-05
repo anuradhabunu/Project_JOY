@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 
-import Login_Page from '../components/Login_Page';
+import LoginPage from '../components/LoginPage';
 
 require('../../scss/main.scss');
 
 class App extends Component{
 	render() {
     return(
-  		<div>
-        <Login_Page/>
+      <div>
+        <LoginPage/>
       </div>
     );
 	}

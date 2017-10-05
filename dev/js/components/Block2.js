@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ComponentLink from './ComponentLink';
 
 export default class Block2 extends Component {
   render() {
@@ -12,14 +13,14 @@ export default class Block2 extends Component {
             </div>
             <div className='block2_container3'>
               <div className='block2_sub_container3'>
-                <a href="https://withjoy.com/" className='block2_sub_container3_details_link' >
+                <a href="https://withjoy.com/" className='block2_sub_container3_details_link' target='_blank'>
                   <img src='https://cdn.zeplin.io/59416fd3aa203d22db1e60c9/assets/D286CDE9-DEE9-44F4-A336-A44064DE52B1.png' 
                   alt='google_play'/>
                   <span className='block2_sub_container3_details'>Google Play</span>
                 </a>
               </div>
               <div className='block2_sub_container3'>
-                <a href="https://withjoy.com/" className='block2_sub_container3_details_link'>
+                <a href="https://withjoy.com/" className='block2_sub_container3_details_link' target='_blank'>
                   <img src='https://cdn.zeplin.io/59416fd3aa203d22db1e60c9/assets/0538FC7A-886A-45F6-9A60-AB4F04CFEB12.png' 
                   alt='app_store'/>
                   <span className='block2_sub_container3_details'>App Store</span>
